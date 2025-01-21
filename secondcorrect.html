@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Project </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+           
+        }
+        .container{
+            background-color: rgb(21, 149, 46);
+            width: 100%;
+            height:100%;
+
+        }
+        .navcontainer{
+            width: 100%;
+            height: 70px;
+            background-color: chartreuse;
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+          }
+          p{
+            font-size: 38px;
+            color:blue;
+            margin-left: 10px;
+          }
+          a{
+            text-decoration: none;
+            font-size:28px;
+            margin-right: 10px;
+          }
+
+          .contentbox{
+            width:800px;
+            height:650px;
+            background-color: blue;
+            margin: auto;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: -5px -7px 5px skyblue;
+          }
+          .item1{
+            display: flex;
+            justify-content: space-around;
+            position: relative;
+            top:10px;
+            bottom: 5px;
+            color:white;
+          }
+          #sor{
+            margin-left: 20px;
+          }
+          .masala{
+            position: relative;
+            top:10px;
+          }
+          
+          .pic{
+            position: relative;
+            top:10px;
+            
+          }
+          img{
+            width: 300px;
+            height:300px;
+            border-radius: 1em;
+          }
+          
+          .footerbox{
+            width:100%;
+            height:80px;
+            background-color: rgb(89, 215, 232);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .fottercontent{
+            color: mediumblue;
+            font-size: 28px;
+          }
+          #sorfirst{
+            margin-left: 20px;
+          }
+          #sorsecond{
+            margin-left: 20px;
+          }
+          #lastpic{
+            position: relative;
+            top:19px;
+          }
+        </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navcontainer">
+            <div class="navleft">
+                <p>Food Panda</p>
+            </div>
+            <div class="navright">
+                  <a href="#">Home</a>
+                  <a href="#">About</a>
+                  <a href="#">Services</a>
+                  <a href="#">Contact</a>
+            </div>
+        </div>
+
+        <div class="contentbox">
+            <div class="item1">
+                 <div class="masala">
+                      <h1 style="text-align: center; color:white;">Laddu</h1>
+                      <h2>Ingridients</h2>
+                      <ul id="sor">
+                        <li>Oil</li>
+                        <li>Ghee</li>
+                        <li>Butter</li>
+                      </ul>
+                      <h2>Process</h2>
+                   <ol id="sorfirst">
+                    <li>Lorem ipsum dolor sit amet consectetur.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur.</li>
+                   
+                   </ol>
+                 </div>
+                 <div class="pic">
+                    <img src="laddo.jpg" >
+                 </div>
+            </div>
+
+            <div class="item1">
+              <div class="masala">
+                   <h1 style="text-align: center; color:white;">Kaju Barfi</h1>
+                   <h2>Ingridients</h2>
+                   <ul id="sor">
+                     <li>Kaju</li>
+                     <li>Butter</li>
+                     <li>Sugar</li>
+                   </ul>
+                   <h2>Process</h2>
+                   <ol id="sorsecond">
+                    <li>Lorem ipsum dolor sit amet consectetur.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur.</li>
+                   
+                   </ol>
+              </div>
+              <div class="pic" id="lastpic">
+                 <img src="th.jpg" >
+              </div>
+         </div>
+         </div>
+      
+
+         <div class="footerbox">
+            <div class="fottercontent">
+                Copyright &copy; Food Panda Pvt.Ltd. All right reserved
+            </div> 
+         </div>
+
+    
+
+
+    </div>
